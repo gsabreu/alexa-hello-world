@@ -1,4 +1,4 @@
-package com.amazon.ask.helloworld.handlers;
+package com.amazon.test.helloworld.handlers;
 
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;

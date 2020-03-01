@@ -11,17 +11,17 @@
      the specific language governing permissions and limitations under the License.
 */
 
-package com.amazon.ask.helloworld;
+package com.amazon.test.helloworld;
 
 import com.amazon.ask.Skill;
 import com.amazon.ask.SkillStreamHandler;
 import com.amazon.ask.Skills;
-import com.amazon.ask.helloworld.handlers.CancelandStopIntentHandler;
-import com.amazon.ask.helloworld.handlers.FallbackIntentHandler;
-import com.amazon.ask.helloworld.handlers.HelloWorldIntentHandler;
-import com.amazon.ask.helloworld.handlers.HelpIntentHandler;
-import com.amazon.ask.helloworld.handlers.LaunchRequestHandler;
-import com.amazon.ask.helloworld.handlers.SessionEndedRequestHandler;
+import com.amazon.test.helloworld.handlers.CancelandStopIntentHandler;
+import com.amazon.test.helloworld.handlers.FallbackIntentHandler;
+import com.amazon.test.helloworld.handlers.HelloWorldIntentHandler;
+import com.amazon.test.helloworld.handlers.HelpIntentHandler;
+import com.amazon.test.helloworld.handlers.LaunchRequestHandler;
+import com.amazon.test.helloworld.handlers.SessionEndedRequestHandler;
 
 public class HelloWorldStreamHandler extends SkillStreamHandler {
 
